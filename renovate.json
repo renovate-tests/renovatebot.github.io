@@ -5,6 +5,7 @@
   "git-submodules": {
     "enabled": true
   },
+  "cloneSubmodules": false,
   "packageRules": [
     {
       "matchUpdateTypes": ["minor"],
