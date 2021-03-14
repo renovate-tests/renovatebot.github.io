@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>renovatebot/.github"],
   "semanticCommitScope": "deps",
-  "stabilityDays": 3,
   "git-submodules": {
     "enabled": true
   },
@@ -14,10 +13,7 @@
     },
     {
       "matchManagers": ["git-submodules"],
-      "automerge": true,
-      "automergeType": "branch",
-      "semanticCommitScope": "docs",
-      "stabilityDays": 0
+      "semanticCommitScope": "docs"
     },
     {
       "packagePatterns": ["^@docusaurus"],
