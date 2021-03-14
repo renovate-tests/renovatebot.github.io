@@ -23,6 +23,7 @@
     },
     {
       "packagePatterns": ["*"],
+      "prCreation": "immediate",
       "automerge": false
     }
   ]
