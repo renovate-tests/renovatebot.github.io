@@ -18,6 +18,10 @@
     {
       "packagePatterns": ["^@docusaurus"],
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+(-alpha\\.(\\d+))?$/"
+    },
+    {
+      "packagePatterns": ["*"],
+      "automerge": false
     }
   ]
 }
